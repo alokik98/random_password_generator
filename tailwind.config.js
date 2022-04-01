@@ -19,7 +19,11 @@ module.exports = {
 
       "3xl": "2560px",
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        "noto-sans": ["Noto Sans"],
+      },
+    },
   },
   plugins: [],
 };
