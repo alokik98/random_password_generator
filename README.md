@@ -8,6 +8,7 @@ The project is (as name suggests) a random password generator, where the user ha
 The user then can copy that password to the clipboard and use it.
 
 A glimpse of the final project:
+
 ![Final Design](https://github.com/alokik98/random_password_generator/blob/main/Final%20Design.png)
 
 ## My learnings from this Project
