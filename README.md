@@ -14,3 +14,30 @@ A glimpse of the final project:
 ## My learnings from this Project
 
 1. Use of Tailwind CSS.
+2. Use of {useState} React Hook.
+3. Map(), Join(), filter() and includes() functions of Array.
+
+## Installation of the Project in local:
+
+# Pre-requisite:
+1. Install [Node.js](https://nodejs.org/en/download/).
+2. Install any Code Editor.
+
+# Installation of Project:
+
+1. Git clone my project.
+   ```
+   git clone https://github.com/alokik98/random_password_generator
+   ```
+2. Go to the repository.
+   ```
+   cd path/to/cloned/repo
+   ```
+3. Install the node modules.
+   ```
+   npm install
+   ```
+4. Run the project in local as:
+   ```
+   npm run start
+   ```

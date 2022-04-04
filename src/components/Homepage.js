@@ -71,12 +71,31 @@ function Homepage() {
   }
 
   function removeElements(e) {
-    console.log(e)
+    if (e.id === "cb1") {
+      setBase(base.filter(function (el) {
+        return !allUniqueChars.includes(el)
+      }));
+    }
+    if (e.id === "cb2") {
+      setBase(base.filter(function (el) {
+        return !allNumbers.includes(el)
+      }));
+    }
+    if (e.id === "cb3") {
+      setBase(base.filter(function (el) {
+        return !allLowerAlpha.includes(el)
+      }));
+    }
+    if (e.id === "cb4") {
+      setBase(base.filter(function (el) {
+        return !allCapsAlpha.includes(el)
+      }));
+    }
   }
 
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col ">
       <div className="h-full flex items-center">
         <span
           id="myText"
@@ -86,7 +105,7 @@ function Homepage() {
         <img
           src={copy_clipboard}
           alt=""
-          className="w-10 h-max mx-2 cursor-pointer bg-inherit"
+          className="w-10 h-max mx-2 cursor-pointer bg-contain"
           onClick={handleCopy}
         />
       </div>
