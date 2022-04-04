@@ -17,13 +17,13 @@ A glimpse of the final project:
 2. Use of {useState} React Hook.
 3. Map(), Join(), filter() and includes() functions of Array.
 
-## Installation of the Project in local:
+# Installation of the Project in local:
 
-# Pre-requisite:
+## Pre-requisite:
 1. Install [Node.js](https://nodejs.org/en/download/).
 2. Install any Code Editor.
 
-# Installation of Project:
+## Installation of Project:
 
 1. Git clone my project.
    ```
