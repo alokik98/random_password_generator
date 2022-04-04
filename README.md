@@ -17,27 +17,31 @@ A glimpse of the final project:
 2. Use of {useState} React Hook.
 3. Map(), Join(), filter() and includes() functions of Array.
 
-# Installation of the Project in local:
+## Installation of the Project in local:
 
-## Pre-requisite:
+### Pre-requisite:
 1. Install [Node.js](https://nodejs.org/en/download/).
 2. Install any Code Editor.
 
-## Installation of Project:
+### Installation of Project:
 
 1. Git clone my project.
+2. 
    ```
    git clone https://github.com/alokik98/random_password_generator
    ```
-2. Go to the repository.
+3. Go to the repository.
+   
    ```
    cd path/to/cloned/repo
    ```
-3. Install the node modules.
+4. Install the node modules.
+   
    ```
    npm install
    ```
-4. Run the project in local as:
+5. Run the project in local as:
+   
    ```
    npm run start
    ```
