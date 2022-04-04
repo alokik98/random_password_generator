@@ -27,10 +27,6 @@ input[type="checkbox"]:checked::before{
     transform: scale(1);
 }
 
-input[type="checkbox"]:focus {
-    outline: max(2px, 0.15em) solid currentColor;
-    outline-offset: max(2px, 0.15em);
-}
 
 input[type="range"] {
     -webkit-appearance: none;
