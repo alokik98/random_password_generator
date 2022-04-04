@@ -26,21 +26,21 @@ A glimpse of the final project:
 ### Installation of Project:
 
 1. Git clone my project.
-2. 
+ 
    ```
    git clone https://github.com/alokik98/random_password_generator
    ```
-3. Go to the repository.
+2. Go to the repository.
    
    ```
    cd path/to/cloned/repo
    ```
-4. Install the node modules.
+3. Install the node modules.
    
    ```
    npm install
    ```
-5. Run the project in local as:
+4. Run the project in local as:
    
    ```
    npm run start
